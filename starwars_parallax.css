@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('./fonts/subset-StarJedi.woff2') format('woff2'),
+        url('./fonts/subset-StarJedi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 30vw;
+    text-align: center;
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.bg1,
+.bg5 {
+    opacity: 1;
+}
+
+h1 {
+    background-color: hsl(169, 20%, 14%);
+    padding: 15px 20px;
+    border-radius: 20px 0px;
+    outline: 8px inset rgb(77, 70, 70);
+    outline-offset: 10px;
+    font-family: 'Star Jedi';
+    color: white;
+    font-family: 'Star Jedi';
+    opacity: 1;
+}
+
+div,
+.bg1 {
+    background: url(./images/death_star.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* transform-style: preserve-3d; */
+    z-index: -1;
+}
+
+div,
+.bg2 {
+    background: url(./images/luke_skywalker_.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div,
+.bg3 {
+    background: url(./images/darth_vader_hallway.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div,
+.bg4 {
+    background: url(./images/Obi-wan.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+div,
+.bg5 {
+    background: url(./images/star_wars_trilogys.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3rem 3rem;
+    color: #E1C11E;
+    font-size: 1.2rem;
+    /* transform: perspective(750px) rotateX(10deg); */
+    z-index: 1;
+    background: url(./images/star_wars_sky.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+b {
+    font-weight: 900;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+.backopacity {
+    background-color: rgba(360, 360, 360, 0.1);
+}
+
+
+.luke h2 {
+    color: #26a92f;
+}
+
+.darth h2 {
+    color: red;
+}
+
+.obi-Wan h2 {
+    color: #17BFEC;
+}
